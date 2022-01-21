@@ -1,0 +1,40 @@
+body {
+    background-color: darkgrey;
+    background-image: url(../images/bgstock.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+nav{
+    opacity:.8;
+}
+
+#logo {
+    filter: brightness(100%) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black);
+}
+
+.navbar-toggler-icon {
+    width: 35px;
+    height: 35px;
+    border: solid;
+    border-color: white;
+}
+section{
+    background-color: rgba(255,255,255, .8);
+}
+
+.customM1{
+    margin:4rem;
+    width: 80%;
+}
+.customML1{
+    margin-left: 3em;
+    width:auto;
+}
+.customMR1{
+    margin-right: 3em;
+    width:auto;
+}
+.customW1{
+    width: 70%
+}

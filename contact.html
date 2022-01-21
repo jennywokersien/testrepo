@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva Jones Design</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/styles1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class=""><a class="" href="index.html"><img id="logo"  src="images/logo.png" alt="Eva Jones Logo" class=" navbar-brand float-left fixed-top position-absolute ml-5 mt-3"></a></div>
+    <nav class="navbar navbar-fixed-top navbar-dark bg-dark text-light navbar-expand-md mb-5">
+
+
+        <div class="mb-auto ml-auto">
+            <button type="button" class="d-md-none navbar-toggler-icon" data-toggle="collapse" data-target="#navbarNav">
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item text-underline ml-auto"><a href="index.html" class="active nav-link text-light">
+                        <h4>Home</h4>
+                    </a></li>
+                <li class="nav-item ml-auto"><a href="about.html" class="nav-link text-light">
+                        <h4>About</h4>
+                    </a></li>
+                <li class="nav-item ml-auto"><a href="contact.html" class="nav-link text-light">
+                        <h4><u>Contact</u></h4>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="customM1 container">
+    <section class="container rounded mt-5 p-5">
+     <h1>Contact</h1>
+<form class="" action="" method="post">
+    <div class="form-group">
+        <label class="" for="fname">First Name*</label>
+        <br/>
+        <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        </div>
+    <div class="form-group">
+        <label for="lname">Last Name*</label>
+        <br/>
+        <input class="form-control" type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+         </div>
+    <div class="form-group">
+        <label for="email">Email*</label>
+        <br/>
+        <input class="form-control" type="text" id="email" name="email" placeholder="name@email.com" required>
+         </div>
+    <div class="form-group">
+        <label for="reason">Reason For Contact</label><br/>
+        <select class="form-control" name="reason" id="reason">
+            <option value="reasonDefault" selected>Select a Reason..</option>
+            <option value="question">Question</option>
+            <option value="comment">Comment</option>
+            <option value="complaint">Complaint</option>
+        </select>
+         </div>
+    <div class="form-group">
+        <label for="comments">Comments</label>
+        <br/>
+        <textarea class="form-control" id="comments" name="comments" placeholder="..." rows="5" required></textarea>
+         </div>
+
+        <input type="submit" id="subButton" value="Submit">
+    </form>
+    </section>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
